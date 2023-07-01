@@ -38,10 +38,39 @@ body {
     padding-top: 1.6rem;
 }
 
+img {
+    display: block;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: var(--fw-extra-bold);
+    color: var(--color-secondary-1);
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: var(--fw-extra-bold);
+    line-height: 3.2rem;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: var(--fw-extra-bold);
+    color: var(--color-secondary-1);
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: var(--color-secondary-2);
+}
+
 .btn {
     text-decoration: none;
     font-weight: var(--fw-bold);
     color: var(--color-secondary-3);
+    display: inline-block;
 }
 
 .btn:hover {
@@ -78,6 +107,7 @@ body {
     background: var(--linear-gradient-2);
 }
 
+/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -89,4 +119,66 @@ header {
 
 .skilled-logo {
     width: 8.9rem;
+}
+
+/* Main */
+main {
+    width: 100%;
+    max-width: var(--body-max-content-width);
+}
+
+/* Main - Hero section */
+.hero-section {
+    margin-bottom: 6.6rem;
+}
+
+.hero-content {
+    margin-bottom: 7rem;
+}
+
+.hero-content > h1{
+    margin-bottom: 2.6rem;
+}
+
+.hero-content > p {
+    margin-bottom: 2.4rem;
+}
+
+.hero-image {
+    width: var(--body-max-content-width);
+}
+
+/* Main - Courses section */
+.courses {
+    display: grid;
+    row-gap: 4rem;
+    margin-bottom: 8rem;
+}
+
+/* Main - Courses section - card */
+.card {
+    background-color: var(--color-secondary-3);
+    border-radius: 1rem;
+    padding: 5.6rem 2.4rem 3.2rem;
+    position: relative;
+}
+
+.card-icon {
+    position: absolute;
+    top: -2.4rem;
+    left: 2.8rem;
+}
+
+.card > h3 {
+    margin-bottom: 1.6rem;
+}
+
+.card > p {
+    margin-bottom: 2.4rem;
+}
+
+.card:nth-child(1) {
+    padding-top: 2.4rem;
+    color: var(--color-secondary-3);
+    background: var(--linear-gradient-1);
 }
