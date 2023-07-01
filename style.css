@@ -1,0 +1,29 @@
+:root {
+    --color-primary-1: #666ca3;
+    --color-primary-2: #f74780;
+    --color-primary-3: #ffa7c3;
+
+    --color-secondary-1: #13183f;
+    --color-secondary-2: #83869a;
+    --color-secondary-3: #fff;
+    
+    --linear-gradient-1: linear-gradient(#ff6f48, #f02aa6);
+    --linear-gradient-2: linear-gradient(#4851ff, #f02aa6);
+    
+    --ff-base: 'Plus Jakarta Sans', sans-serif;
+    --fw-regular: 500;
+    --fw-bold: 700;
+    --fw-extra-bold: 800;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+    font-size: 62.5%;
+}
