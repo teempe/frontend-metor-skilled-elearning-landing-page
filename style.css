@@ -9,6 +9,7 @@
     
     --linear-gradient-1: linear-gradient(#ff6f48, #f02aa6);
     --linear-gradient-2: linear-gradient(#4851ff, #f02aa6);
+    --body-background: linear-gradient(#fff, #f0f1ff);
     
     --ff-base: 'Plus Jakarta Sans', sans-serif;
     --fw-regular: 500;
@@ -34,8 +35,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
     padding-top: 1.6rem;
+    background: var(--body-background);
 }
 
 img {
@@ -107,11 +108,14 @@ p {
     background: var(--linear-gradient-2);
 }
 
-/* Header */
-header {
+.flex-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Header */
+header {
     width: 100%;
     max-width: var(--body-max-content-width);
     margin-bottom: 3.8rem;
@@ -181,4 +185,18 @@ main {
     padding-top: 2.4rem;
     color: var(--color-secondary-3);
     background: var(--linear-gradient-1);
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-secondary-1);
+}
+
+.footer-content {
+    padding: 3.6rem 1.6rem;
+    width: 100%;
+    max-width: var(--body-max-content-width);
 }
