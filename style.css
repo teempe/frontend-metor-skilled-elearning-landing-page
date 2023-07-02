@@ -254,3 +254,88 @@ footer {
         padding-top: 5.6rem;
     }
 }
+
+/* Desktop - 1440px */
+@media only screen and (min-width: 90em) {
+    :root {
+        --body-max-content-width: 111rem;
+    }
+
+    h1 {
+        font-size: 5.6rem;
+    }
+
+    h2 {
+        font-size: 3.2rem;
+        line-height: 4rem;
+    }
+
+    h3 {
+        font-size: 2.4rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+    }
+
+    header {
+        margin-bottom: 17.2rem;
+    }
+
+    .btn-type-1 {
+        font-size: 1.8rem;
+        padding: 1.65rem 3.2rem;
+        border-radius: 3.3rem;
+    }
+
+    .btn-type-2 {
+        font-size: 1.8rem;
+        padding: 2rem 3.2rem;
+        border-radius: 4rem;
+    }
+
+    .skilled-logo {
+        width: 11.4rem;
+    }
+
+    .hero-section {
+        grid-template-columns: 42% 1fr;
+        margin-bottom: -33rem;
+    }
+
+    .hero-content > h1{
+        margin-bottom: 2.9rem;
+    }
+    
+    .hero-content > p {
+        margin-bottom: 4rem;
+    }
+
+    .hero-image {
+        transform: translate(10rem, -40.2rem);
+    }
+
+    .courses {
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 8rem;
+        column-gap: 3rem;
+        margin-bottom: 14rem;
+    }
+
+    .card {
+        padding: 6.4rem 3.2rem 4rem;
+    }
+
+    .card:nth-child(1) {
+        padding-top: 6.4rem;
+    }
+
+    .card > h3 {
+        margin-bottom: 2.4rem;
+    }
+
+    .footer-content {
+        padding: 3.3rem 0;
+    }
+}
