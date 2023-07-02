@@ -163,7 +163,7 @@ main {
 .card {
     background-color: var(--color-secondary-3);
     border-radius: 1rem;
-    padding: 5.6rem 2.4rem 3.2rem;
+    padding: 5.6rem 2.8rem 3.2rem;
     position: relative;
 }
 
@@ -196,7 +196,61 @@ footer {
 }
 
 .footer-content {
-    padding: 3.6rem 1.6rem;
+    padding: 3.6rem 0;
     width: 100%;
     max-width: var(--body-max-content-width);
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48em) {
+    :root {
+        --body-max-content-width: 68.8rem;
+    }
+
+    body {
+        padding-top: 2.4rem;
+    }
+
+    header {
+        margin-bottom: 9.9rem;
+    }
+
+    .hero-section {
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        margin-bottom: -22.9rem;
+    }
+
+    .hero-content {
+        margin-bottom: 0;
+    }
+    
+    .hero-content > h1{
+        margin-bottom: 2.5rem;
+    }
+    
+    .hero-content > p {
+        margin-bottom: 2.5rem;
+    }
+
+    .hero-image {
+        width: auto;
+        transform: translate(-8.2rem, -26.2rem);
+    }
+
+    .courses {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 5.6rem;
+        column-gap: 1rem;
+        margin-bottom: 8.6rem;
+    }
+
+    .card {
+        padding-left: 3.2rem;
+        padding-right: 2.1rem;
+    }
+
+    .card:nth-child(1) {
+        padding-top: 5.6rem;
+    }
 }
