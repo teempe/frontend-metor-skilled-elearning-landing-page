@@ -30,6 +30,7 @@ html {
     font-family: var(--ff-base);
     font-weight: var(--fw-regular);
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -38,6 +39,7 @@ body {
     align-items: center;
     padding-top: 1.6rem;
     background: var(--body-background);
+    overflow-x: hidden;
 }
 
 img {
@@ -186,6 +188,8 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    box-shadow: 0 2.5rem 1.6rem 0 #13183f1a;
+    
 }
 
 .card-icon {
